@@ -22,24 +22,32 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
+puts "Is number_teachers less than number_students?", number_teachers < number_students
 # this should print: true
 
+
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
+puts "Is number_teachers equal to string_teachers?", number_teachers == string_teachers
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
+puts "Is number_teachers not equal to number_students?", number_teachers != number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+puts "Is number_students greater than or equal to 20?", number_students >= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+puts "Is number_students greater than or equal to 21?", number_students >= 21
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+puts "Is number_students less than or equal to 20?", number_students <= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+puts "Is number_students less than or equal to 21?", number_students <= 21
 # this should print: true
 
 
@@ -54,21 +62,32 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 puts 4 < 9
 #YOU DO: Explain.
+#Answer: puts will print the output of this conditional statement (relating to the Booleans, true or false)
+# the < is a comparison operator, so this is comparing whether 4 is less than 9.
+# the output will be true.
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+#Answer: books is a variable assigned to the integer 3
+# this will print the output of the conditional statement of 4 < 3, since 3 is the value contained in the variable books.
+# answer will be false
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# Answer: we have two variables, friends and siblings, which are each assigned integer values.
+# the puts line of code is a conditional statement comparing the two variables, essentially comparing the values assigned to the two variables.
+# the output should be true.
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+#Anser: we have two variables, attendees and meals.  These two variables are each assigned an integer value.
+# the puts line of code will print the result of the conditional statement.  This is the # attendees doesn't equal the # meals.
+# Since the number of attendees and meals is different, the output of this code will be true.
 
 #-------------------
 # PART 3: Logical Operators
@@ -90,15 +109,18 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+loves_to_play && loves_treats
+# Output: true
 
 # Determine if the dog loves to play and loves the dog park
-
+loves_to_play && loves_dog_park
+# Output: false
 
 # Determine if the dog loves to play or loves the dog park
-
+loves_to_play || loves_dog_park
+#output: true
 
 # Determine if the dog loves to play and is a puppy
-
+loves_to_play && age
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: My final line of code evaluated to 1.  I think that is because we compared a Boolean to an Integer.
